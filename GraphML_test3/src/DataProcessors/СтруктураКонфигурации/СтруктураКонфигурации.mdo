@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54f55f7c-7c71-4f78-aa76-1dc55388b6d4">
+  <producedTypes>
+    <objectType typeId="c2378a2b-6832-4d6c-a023-e931e52dbd76" valueTypeId="99a855bd-1ddc-47e0-b0f8-412b8a52fb42"/>
+    <managerType typeId="70d75a0e-723a-4906-86c6-3934bca44418" valueTypeId="82f44540-f4db-4b97-9919-6f2c9dc65fc1"/>
+  </producedTypes>
+  <name>СтруктураКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура конфигурации</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СтруктураКонфигурации.Form.ФормаУФ</defaultForm>
+  <auxiliaryForm>DataProcessor.СтруктураКонфигурации.Form.Форма</auxiliaryForm>
+  <forms uuid="38f376ca-54a4-497a-8a67-94ce80a6cb25">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3923cc37-45cc-4ce3-8835-a49256ed3e1c">
+    <name>ФормаУФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма УФ</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="811006ae-392c-4288-bb34-4af4cf298339">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>
